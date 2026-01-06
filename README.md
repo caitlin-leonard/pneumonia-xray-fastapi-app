@@ -38,9 +38,7 @@ Large files like the dataset and trained model weights are kept out of the repo 
 
 ## How to run on macOS
 
-1. **Create and activate a virtual environment**
-
-```bash
+# 1. Create and activate a virtual environment
 python -m venv .venv
 source .venv/bin/activate
 
