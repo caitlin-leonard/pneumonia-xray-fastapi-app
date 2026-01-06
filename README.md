@@ -55,4 +55,16 @@ uvicorn main:app --reload
 #    http://127.0.0.1:8000       -> web UI
 #    http://127.0.0.1:8000/docs  -> API docs
 
+# 2. Install dependencies
+pip install -r requirements.txt
+
+# 3. Train the model (if needed)
+python train_model.py
+
+# 4. Start the FastAPI server
+uvicorn main:app --reload
+
+# 5. Open in your browser:
+#    http://127.0.0.1:8000       -> web UI
+#    http://127.0.0.1:8000/docs  -> API docs
 
