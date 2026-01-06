@@ -1,4 +1,3 @@
-text
 # Pneumonia X-Ray Classifier (FastAPI)
 
 Small FastAPI project that trains a convolutional neural network on chest X-ray images and exposes a simple web interface + API to classify images as **Normal** or **Pneumonia**.[web:214][web:218]
@@ -44,26 +43,17 @@ Large files like the dataset and trained model weights are kept out of the repo 
 ```bash
 python -m venv .venv
 source .venv/bin/activate
-Install dependencies
 
-bash
+# 2. Install dependencies
 pip install -r requirements.txt
-Train the model (if needed)
 
-bash
+# 3. Train the model (if needed)
 python train_model.py
-Start the FastAPI server
 
-bash
+# 4. Start the FastAPI server
 uvicorn main:app --reload
-Open in your browser:
 
-http://127.0.0.1:8000 for the web UI.
-
-http://127.0.0.1:8000/docs for the interactive API docs.[web:195][web:226]
-
-API endpoints
-GET / – serves index.html from the static folder.
-
-POST /predict – accepts an image and returns JSON with predicted label and confidence.
+# 5. Open in your browser:
+#    http://127.0.0.1:8000       -> web UI
+#    http://127.0.0.1:8000/docs  -> API docs
 
