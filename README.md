@@ -9,12 +9,6 @@ Classifies images as **Normal** or **Pneumonia** via a web UI and REST API.
 - PyTorch / TensorFlow
 - HTML, JavaScript
 
-## Structure
-main.py # FastAPI app
-dataset.py # Data loading
-train_model.py# Model training
-static/ # Frontend
-
 ## Run
 ```bash
 python -m venv .venv
