@@ -1,5 +1,3 @@
-Here’s a very small, clean, GitHub-style README — minimal and professional.
-Copy-paste exactly this into README.md.
 # Pneumonia X-Ray Classifier (FastAPI)
 
 A simple CNN-based chest X-ray classifier deployed with **FastAPI**.  
@@ -27,6 +25,4 @@ uvicorn main:app --reload
 Open:
 http://127.0.0.1:8000
 http://127.0.0.1:8000/docs
-For educational purposes only.
-
-If you want it **even smaller (2–3 lines)** or **portfolio-style**, tell me.
+F
