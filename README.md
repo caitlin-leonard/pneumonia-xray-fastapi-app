@@ -1,38 +1,32 @@
+Here’s a very small, clean, GitHub-style README — minimal and professional.
+Copy-paste exactly this into README.md.
 # Pneumonia X-Ray Classifier (FastAPI)
 
-A lightweight end-to-end project that trains a **Convolutional Neural Network (CNN)** on chest X-ray images and deploys it using **FastAPI**. The application provides both a **REST API** and a **minimal web interface** to classify X-ray images as **Normal** or **Pneumonia**.
-
----
-
-## Overview
-
-This project demonstrates a complete ML workflow:
-- Dataset loading and preprocessing
-- CNN model training
-- Model deployment using FastAPI
-- Image-based inference via browser and API
-
----
-
-## Features
-
-- Trainable CNN model for pneumonia detection
-- FastAPI backend for inference
-- Simple web UI for image upload
-- REST endpoint for programmatic access
-- Interactive API documentation (Swagger)
-
----
+A simple CNN-based chest X-ray classifier deployed with **FastAPI**.  
+Classifies images as **Normal** or **Pneumonia** via a web UI and REST API.
 
 ## Tech Stack
-
 - Python
-- FastAPI
-- Uvicorn
+- FastAPI + Uvicorn
 - PyTorch / TensorFlow
 - HTML, JavaScript
 
----
+## Structure
+main.py # FastAPI app
+dataset.py # Data loading
+train_model.py# Model training
+static/ # Frontend
 
-## Project Structure
+## Run
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python train_model.py
+uvicorn main:app --reload
+Open:
+http://127.0.0.1:8000
+http://127.0.0.1:8000/docs
+For educational purposes only.
 
+If you want it **even smaller (2–3 lines)** or **portfolio-style**, tell me.
