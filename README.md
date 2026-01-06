@@ -5,6 +5,9 @@
 A simple CNN-based chest X-ray classifier deployed with **FastAPI**.  
 Classifies images as **Normal** or **Pneumonia** via a web UI and REST API.
 
+[Chest X-Ray Pneumonia Dataset](https://www.kaggle.com/datasets/divyam6969/chest-xray-pneumonia-dataset)
+
+
 ## Tech Stack
 - Python
 - FastAPI + Uvicorn
