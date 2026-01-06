@@ -1,7 +1,6 @@
 # Pneumonia X-Ray Classifier (FastAPI)
 
-<img width="555" height="635" alt="Screenshot 2026-01-06 at 6 13 37 PM" src="https://github.com/user-attachments/assets/ef20d471-d1f8-4e39-a867-6e496c94c383" /># Pneumonia X-Ray Classifier (FastAPI)
-
+<img width="555" height="635" alt="Screenshot 2026-01-06 at 6 13 37 PM" src="https://github.com/user-attachments/assets/ef20d471-d1f8-4e39-a867-6e496c94c383" />
 A simple CNN-based chest X-ray classifier deployed with **FastAPI**.  
 Classifies images as **Normal** or **Pneumonia** via a web UI and REST API.
 
